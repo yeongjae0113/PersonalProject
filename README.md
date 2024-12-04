@@ -2,7 +2,7 @@
 > **개발 기간 : 2024.11 ~ 진행중**
 
 <div align="center">
-![image](https://github.com/user-attachments/assets/224bd516-9225-43df-aae9-08db6f5dcb35)
+![스크린샷 2024-12-05 054529](https://github.com/user-attachments/assets/23ab47bc-fe33-47e0-8da7-b387e3895d79)
 </div>
 
 ## 🚀 프로젝트 소개
