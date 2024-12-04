@@ -23,14 +23,18 @@
 ### 1. 로그인 페이지
 ![로그인 페이지](https://github.com/user-attachments/assets/9f14e5b2-f37e-4379-a1dc-fc1939ddecae)  
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
+    
 **사내 메신저 서비스를 이용하기 위해 로그인하는 페이지입니다.**
 </div>
+<br/>
 
 ### 2. 회원가입 페이지
 ![회원가입 페이지](https://github.com/user-attachments/assets/f77db02a-5441-4d96-823e-f38ec4478985)  
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
+    
 **사내 메신저를 이용하기 전 개인정보를 기입하여 회원가입하는 페이지입니다.**
 </div>
+<br/>
 
 ### 3. 메인 페이지
 <div>
@@ -38,9 +42,11 @@
     <img src="https://github.com/user-attachments/assets/08664e19-a574-40e7-b743-3b172bb04eff" alt="메인 페이지 2" style="display:inline-block; width:48%;">
 </div>
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
+    
 **1. 부서 필터를 클릭하여 부서별 사원 리스트를 볼 수 있습니다.** <br/>
 **2. 자신이 참여하고 있는 채팅방 목록을 볼 수 있습니다.**
 </div>
+<br/>
 
 ### 4. 마이 페이지 및 수정 페이지
 <div>
@@ -48,6 +54,7 @@
     <img src="https://github.com/user-attachments/assets/9f3e92ce-542c-4515-b010-db9e7f5e01d2" alt="마이 페이지 2" style="display:inline-block; width:48%;">
 </div>
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
+    
 **1. 자신의 회원 정보를 볼 수 있습니다.**  <br/>
 **2. 성별, 나이, 부서, 직급을 제외한 사용자 이름, 비밀번호, 휴대전화번호를 수정할 수 있습니다.**
 </div>
