@@ -3,8 +3,9 @@
 
 <div align="center">
 <!-- <img width="100" src="스크린샷 2024-12-05 054529.png" alt="스크린샷"> -->
-<img width="400" src="스크린샷 2024-12-05 062304.png" alt="스크린샷">
+<img width="450" src="스크린샷 2024-12-05 062304.png" alt="스크린샷">
 </div>
+<br/>
 
 ## 🚀 프로젝트 소개
 Personal Project는 회사의 각 부서에 소속된 직원들이 실시간으로 소통할 수 있는 플랫폼입니다. <br/>
