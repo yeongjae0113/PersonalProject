@@ -56,6 +56,16 @@ public class UserController {
         return ResponseEntity.ok(result);
     }
 
+    @PostMapping("/update/{id}")
+    public ResponseEntity<User> updateUser(@PathVariable Long id, @RequestBody User user) {
+        User updateUser = userService.updateUser(id, user);
+        if (updateUser != null) {
+            return ResponseEntity.ok(updateUser);
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
+        }
+    }
+
 //    @GetMapping("/chatRoom")
 //    public List<ChatRoom> chatRoomList(@RequestParam Long userId) {
 //        return chatRoomService.getChatRooms(userId);

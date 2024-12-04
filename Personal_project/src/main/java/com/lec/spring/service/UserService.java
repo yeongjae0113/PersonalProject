@@ -46,4 +46,18 @@ public class UserService {
         }
         return "false";
     }
+
+    // UserService.java
+    public User updateUser(Long id, User updatedUser) {
+        User users = userRepository.findById(id).orElse(null);
+        if (users != null) {
+            // 필요한 필드만 업데이트
+            users.setUsername(updatedUser.getUsername());
+            users.setPassword(updatedUser.getPassword());
+            users.setPhoneNumber(updatedUser.getPhoneNumber());
+            return userRepository.save(users);
+        }
+        return null; // 사용자 없음
+    }
+
 }
