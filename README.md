@@ -1,9 +1,8 @@
 # 🏬 Personal Project - 사내 메신저 서비스
 > **개발 기간 : 2024.11 ~ 진행중**
-> 
+
 <div align="center">
 <img width="400" ![image](https://github.com/user-attachments/assets/224bd516-9225-43df-aae9-08db6f5dcb35)
->
 </div>
 
 ## 🚀 프로젝트 소개
@@ -36,7 +35,7 @@ Personal Project는 회사의 각 부서에 소속된 직원들이 실시간으�
 ![로그인 페이지](https://github.com/user-attachments/assets/9f14e5b2-f37e-4379-a1dc-fc1939ddecae)  
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-| **사내 메신저 서비스를 이용하기 위해 로그인하는 페이지입니다.** |
+**사내 메신저 서비스를 이용하기 위해 로그인하는 페이지입니다.** 
 </div>
 <br/>
 
@@ -44,7 +43,7 @@ Personal Project는 회사의 각 부서에 소속된 직원들이 실시간으�
 ![회원가입 페이지](https://github.com/user-attachments/assets/f77db02a-5441-4d96-823e-f38ec4478985)  
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-| **사내 메신저를 이용하기 전 개인정보를 기입하여 회원가입하는 페이지입니다.** |
+**사내 메신저를 이용하기 전 개인정보를 기입하여 회원가입하는 페이지입니다.** 
 </div>
 <br/>
 
@@ -55,8 +54,8 @@ Personal Project는 회사의 각 부서에 소속된 직원들이 실시간으�
 </div>
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-| **1. 부서 필터를 클릭하여 부서별 사원 리스트를 볼 수 있습니다.** <br/>
-**2. 자신이 참여하고 있는 채팅방 목록을 볼 수 있습니다.** |
+**1. 부서 필터를 클릭하여 부서별 사원 리스트를 볼 수 있습니다.** <br/>
+**2. 자신이 참여하고 있는 채팅방 목록을 볼 수 있습니다.** 
 </div>
 <br/>
 
@@ -67,6 +66,6 @@ Personal Project는 회사의 각 부서에 소속된 직원들이 실시간으�
 </div>
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-| **1. 자신의 회원 정보를 볼 수 있습니다.**  <br/>
-**2. 성별, 나이, 부서, 직급을 제외한 사용자 이름, 비밀번호, 휴대전화번호를 수정할 수 있습니다.** |
+**1. 자신의 회원 정보를 볼 수 있습니다.**  <br/>
+**2. 성별, 나이, 부서, 직급을 제외한 사용자 이름, 비밀번호, 휴대전화번호를 수정할 수 있습니다.** 
 </div>
