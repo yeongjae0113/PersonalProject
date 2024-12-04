@@ -29,13 +29,17 @@
 사내 메신저를 이용하기 전 개인정보를 기입하여 회원가입하는 페이지입니다.
 
 ### 3. 메인 페이지
-![메인 페이지 1](https://github.com/user-attachments/assets/1e7775a7-735f-48e5-9b2f-205c0c5fb6dc)  
-![메인 페이지 2](https://github.com/user-attachments/assets/08664e19-a574-40e7-b743-3b172bb04eff)  
-1. 부서 필터를 클릭하여 부서별 사원 리스트를 볼 수 있습니다.
+<div>
+    <img src="https://github.com/user-attachments/assets/1e7775a7-735f-48e5-9b2f-205c0c5fb6dc" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
+    <img src="https://github.com/user-attachments/assets/08664e19-a574-40e7-b743-3b172bb04eff" alt="메인 페이지 2" style="display:inline-block; width:48%;">
+</div>
+1. 부서 필터를 클릭하여 부서별 사원 리스트를 볼 수 있습니다.  
 2. 자신이 참여하고 있는 채팅방 목록을 볼 수 있습니다.
 
 ### 4. 마이 페이지 및 수정 페이지
-![마이 페이지 1](https://github.com/user-attachments/assets/9b82664b-b451-4a27-a631-72ea4c6dc5b8)  
-![마이 페이지 2](https://github.com/user-attachments/assets/9f3e92ce-542c-4515-b010-db9e7f5e01d2)  
-1. 자신의 회원 정보를 볼 수 있습니다.
+<div>
+    <img src="https://github.com/user-attachments/assets/9b82664b-b451-4a27-a631-72ea4c6dc5b8" alt="마이 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
+    <img src="https://github.com/user-attachments/assets/9f3e92ce-542c-4515-b010-db9e7f5e01d2" alt="마이 페이지 2" style="display:inline-block; width:48%;">
+</div>
+1. 자신의 회원 정보를 볼 수 있습니다.  
 2. 성별, 나이, 부서, 직급을 제외한 사용자 이름, 비밀번호, 휴대전화번호를 수정할 수 있습니다.
