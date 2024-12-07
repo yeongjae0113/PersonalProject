@@ -20,7 +20,6 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?logo=spring&logoColor=fff&style=for-the-badge) 
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=fff&style=for-the-badge) 
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=fff&style=for-the-badge)
-<img src="https://img.shields.io/badge/Adobe-FF0000?style=flat-square&logo=JPA&logoColor=white">
 
 ### Config  
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?logo=gradle&logoColor=fff&style=for-the-badge)
