@@ -53,7 +53,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 ![회원가입 페이지](https://github.com/user-attachments/assets/f77db02a-5441-4d96-823e-f38ec4478985)  
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-**사내 메신저를 이용하기 전 개인정보를 기입하여 회원가입하는 페이지입니다.** 
+> **사내 메신저를 이용하기 전 개인정보를 기입하여 회원가입하는 페이지입니다.** 
 </div>
 <br/>
 
@@ -64,8 +64,8 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 </div>
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-**1. 부서 필터를 클릭하여 부서별 사원 리스트를 볼 수 있습니다.** <br/>
-**2. 자신이 참여하고 있는 채팅방 목록을 볼 수 있습니다.** 
+> **1. 부서 필터를 클릭하여 부서별 사원 리스트를 볼 수 있습니다.** <br/>
+> **2. 자신이 참여하고 있는 채팅방 목록을 볼 수 있습니다.** 
 
 </div>
 <br/>
@@ -74,7 +74,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 ![스크린샷 2024-12-09 054259](https://github.com/user-attachments/assets/2e82af1d-8531-4d79-b69c-bfca0a2dfaee)
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-**로그인 한 유저의 일정 관리를 할 수 있는 페이지입니다.** 
+> **로그인 한 유저의 일정 관리를 할 수 있는 페이지입니다.** 
 <div>
     <img src="https://github.com/user-attachments/assets/23e0b0be-b67c-4e4f-9131-c5d68327b7d9" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
     <img src="https://github.com/user-attachments/assets/b8f62db3-dd5c-4ac8-b8be-a798a99d9b79" alt="메인 페이지 2" style="display:inline-block; width:48%;">
@@ -84,8 +84,8 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-**1. 일정을 새롭게 추가 할 수 있습니다.** <br/>
-**2. 추가된 일정을 수정 할 수 있습니다.**
+> **1. 일정을 새롭게 추가 할 수 있습니다.** <br/>
+> **2. 추가된 일정을 수정 할 수 있습니다.**
 </div>
 <br/>
 
@@ -96,6 +96,6 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 </div>
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-**1. 자신의 회원 정보를 볼 수 있습니다.**  <br/>
-**2. 성별, 나이, 부서, 직급을 제외한 사용자 이름, 비밀번호, 휴대전화번호를 수정할 수 있습니다.** 
+> **1. 자신의 회원 정보를 볼 수 있습니다.**  <br/>
+> **2. 성별, 나이, 부서, 직급을 제외한 사용자 이름, 비밀번호, 휴대전화번호를 수정할 수 있습니다.** 
 </div>
