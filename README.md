@@ -61,7 +61,20 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 </div>
 <br/>
 
-### 4. 마이 페이지 및 수정 페이지
+### 4. 일정 관리 페이지
+<div>
+    "C:\Users\user\Pictures\Screenshots\스크린샷 2024-12-09 054259.png"
+</div>
+<div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
+    
+**로그인 한 유저의 일정 관리를 할 수 있는 페이지입니다.** 
+</div>
+<div>
+![스크린샷 1](./Pictures/Screenshots/스크린샷%202024-12-09%20054554.png) ![스크린샷 2](./Pictures/Screenshots/스크린샷%202024-12-09%20054541.png) ![스크린샷 3](./Pictures/Screenshots/스크린샷%202024-12-09%20054259.png)
+
+</div>
+
+### 5. 마이 페이지 및 수정 페이지
 <div>
     <img src="https://github.com/user-attachments/assets/9b82664b-b451-4a27-a631-72ea4c6dc5b8" alt="마이 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
     <img src="https://github.com/user-attachments/assets/9f3e92ce-542c-4515-b010-db9e7f5e01d2" alt="마이 페이지 2" style="display:inline-block; width:48%;">
