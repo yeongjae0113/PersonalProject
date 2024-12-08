@@ -33,9 +33,10 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=fff&style=for-the-badge)
 
 ## 🙋‍♂️ 주요 기능
-|🙋‍♂️ 기능 설명 |
+| 🙋‍♂️ 기능 설명 |
 |--------------|
-| - 🚀 WebSocket과 STOMP 프로토콜을 활용한 실시간 채팅 구현 <br> - 🧪 FullCalendar 라이브러리를 활용한 달력 구현 <br> - 🪪 로그인한 유저 각자의 일정 관리 페이지에 접근 가능 <br> --> 랜더링 된 일정을 클릭하면 "일정 수정" Modal 창 <br> --> 빈 셀을 클릭하면 "일정 추가" Modal 창 <br> -💾 부서별 유저 리스트 필터 구현 <br> - 🌐 유저 CRUD 구현 <br> - 📊 채팅방 CRUD 구현 <br> - 🎨 일정 CRUD 구현 |
+| - 🚀 **WebSocket과 STOMP 프로토콜을 활용한 실시간 채팅 구현** <br> - 🧪 **FullCalendar 라이브러리를 활용한 달력 구현** <br> - 🪪 **로그인한 유저 각자의 일정 관리 페이지에 접근 가능** <br> -> 렌더링 된 일정을 클릭하면 "일정 수정" Modal 창 <br> -> 빈 셀을 클릭하면 "일정 추가" Modal 창 <br> - 💾 **부서별 유저 리스트 필터 구현** <br> - 🌐 **유저 CRUD 구현** <br> - 📊 **채팅방 CRUD 구현** <br> - 🎨 **일정 CRUD 구현** |
+
 
 
 ## 📺 페이지 구성
@@ -81,6 +82,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 <br/>
 
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
+    
 **1. 일정을 새롭게 추가 할 수 있습니다.** <br/>
 **2. 추가된 일정을 다시 할 수 있습니다.**
 </div>
