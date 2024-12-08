@@ -41,7 +41,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 
 ## 📺 페이지 구성
 
-### 1. 로그인 페이지 |
+### 1. 로그인 페이지
 ![로그인 페이지](https://github.com/user-attachments/assets/9f14e5b2-f37e-4379-a1dc-fc1939ddecae)  
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
@@ -86,6 +86,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 **1. 일정을 새롭게 추가 할 수 있습니다.** <br/>
 **2. 추가된 일정을 다시 할 수 있습니다.**
 </div>
+<br/>
 
 ### 5. 마이 페이지 및 수정 페이지
 <div>
