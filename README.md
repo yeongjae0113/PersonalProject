@@ -45,7 +45,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 ![로그인 페이지](https://github.com/user-attachments/assets/9f14e5b2-f37e-4379-a1dc-fc1939ddecae)  
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-**사내 메신저 서비스를 이용하기 위해 로그인하는 페이지입니다.** 
+> **사내 메신저 서비스를 이용하기 위해 로그인하는 페이지입니다.** 
 </div>
 <br/>
 
