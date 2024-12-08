@@ -42,7 +42,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 ## 📺 페이지 구성
 
 ### 1. 로그인 페이지
-![로그인 페이지](https://github.com/user-attachments/assets/9f14e5b2-f37e-4379-a1dc-fc1939ddecae)  
+![스크린샷 2024-12-09 071227](https://github.com/user-attachments/assets/ebc05125-9020-4a76-b63e-5db4b9933cde)
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
 > **사내 메신저 서비스를 이용하기 위해 로그인하는 페이지입니다.** 
@@ -50,7 +50,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 <br/>
 
 ### 2. 회원가입 페이지
-![회원가입 페이지](https://github.com/user-attachments/assets/f77db02a-5441-4d96-823e-f38ec4478985)  
+![스크린샷 2024-12-09 071227](https://github.com/user-attachments/assets/966e0f6e-b26d-4da2-80d2-5ac718e945a5)
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
 > **사내 메신저를 이용하기 전 개인정보를 기입하여 회원가입하는 페이지입니다.** 
@@ -59,9 +59,10 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 
 ### 3. 메인 페이지
 <div>
-    <img src="https://github.com/user-attachments/assets/1e7775a7-735f-48e5-9b2f-205c0c5fb6dc" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
-    <img src="https://github.com/user-attachments/assets/08664e19-a574-40e7-b743-3b172bb04eff" alt="메인 페이지 2" style="display:inline-block; width:48%;">
+    <img src="https://github.com/user-attachments/assets/3db2ffa0-e9e3-418f-8ff8-2108ee824c42" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
+    <img src="https://github.com/user-attachments/assets/215fc579-b938-4bc5-8b27-06e9ca7b3874" alt="메인 페이지 2" style="display:inline-block; width:48%;">
 </div>
+
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
 > **1. 부서 필터를 클릭하여 부서별 사원 리스트를 볼 수 있습니다.** <br/>
@@ -91,8 +92,8 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 
 ### 5. 마이 페이지 및 수정 페이지
 <div>
-    <img src="https://github.com/user-attachments/assets/9b82664b-b451-4a27-a631-72ea4c6dc5b8" alt="마이 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
-    <img src="https://github.com/user-attachments/assets/9f3e92ce-542c-4515-b010-db9e7f5e01d2" alt="마이 페이지 2" style="display:inline-block; width:48%;">
+    <img src="https://github.com/user-attachments/assets/71f97435-cb2f-462d-89b1-20245bfe2673" alt="마이 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
+    <img src="https://github.com/user-attachments/assets/46df8caf-9e88-45b1-82f8-8d1a78272e55" alt="마이 페이지 2" style="display:inline-block; width:48%;">
 </div>
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
