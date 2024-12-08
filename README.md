@@ -71,11 +71,12 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
     <img src="https://github.com/user-attachments/assets/cd3d0a29-14be-4cf7-bce8-30f1b7a3d804" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
     <img src="https://github.com/user-attachments/assets/23e0b0be-b67c-4e4f-9131-c5d68327b7d9" alt="메인 페이지 2" style="display:inline-block; width:48%;">
 </div>
+<br/>
 
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-**일정을 새롭게 추가 할 수 있습니다.** <br/>
-**추가된 일정을 다시 할 수 있습니다.**
+**1. 일정을 새롭게 추가 할 수 있습니다.** <br/>
+**2. 추가된 일정을 다시 할 수 있습니다.**
 
 </div>
 
