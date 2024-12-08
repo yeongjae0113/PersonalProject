@@ -76,8 +76,9 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
     
 **로그인 한 유저의 일정 관리를 할 수 있는 페이지입니다.** 
 <div>
-    <img src="https://github.com/user-attachments/assets/cd3d0a29-14be-4cf7-bce8-30f1b7a3d804" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
-    <img src="https://github.com/user-attachments/assets/23e0b0be-b67c-4e4f-9131-c5d68327b7d9" alt="메인 페이지 2" style="display:inline-block; width:48%;">
+    <img src="https://github.com/user-attachments/assets/23e0b0be-b67c-4e4f-9131-c5d68327b7d9" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
+    <img src="https://github.com/user-attachments/assets/b8f62db3-dd5c-4ac8-b8be-a798a99d9b79" alt="메인 페이지 2" style="display:inline-block; width:48%;">
+
 </div>
 <br/>
 
