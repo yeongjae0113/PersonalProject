@@ -32,6 +32,10 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge) 
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=fff&style=for-the-badge)
 
+## 🙋‍♂️ 주요 기능
+|--------------|
+| - 🚀 WebSocket과 STOMP 프로토콜을 활용한 실시간 채팅 구현<br>- 🧪 FullCalendar 라이브러리를 활용한 달력 구현 <br>- 💾 부서별 유저 리스트 필터 구현<br>- 🌐 유저 CRUD 구현<br>- 📊 채팅방 CRUD 구현<br>- 🎨일정 CRUD 구현|
+
 ## 📺 페이지 구성
 
 ### 1. 로그인 페이지
