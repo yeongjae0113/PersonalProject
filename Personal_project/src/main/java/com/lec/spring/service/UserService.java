@@ -47,7 +47,6 @@ public class UserService {
         return "false";
     }
 
-    // UserService.java
     public User updateUser(Long id, User updatedUser) {
         User users = userRepository.findById(id).orElse(null);
         if (users != null) {
@@ -60,4 +59,7 @@ public class UserService {
         return null; // 사용자 없음
     }
 
+    public User findById(Long id) {
+        return userRepository.findById(id).orElse(null);
+    }
 }

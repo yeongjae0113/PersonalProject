@@ -23,4 +23,17 @@ public class CalendarService {
         return calendarRepository.save(calendar);
     }
 
+    // 일정 수정
+    public Calendar update(Long id, Calendar updateCalendar) {
+        Calendar calendar = calendarRepository.findById(id).orElse(null);
+        if (calendar != null) {
+            calendar.setTitle(updateCalendar.getTitle());
+            calendar.setDescription(updateCalendar.getDescription());
+            calendar.setStartDate(updateCalendar.getStartDate());
+            calendar.setEndDate(updateCalendar.getEndDate());
+            return calendarRepository.save(calendar);
+        }
+        return null;
+    }
+
 }

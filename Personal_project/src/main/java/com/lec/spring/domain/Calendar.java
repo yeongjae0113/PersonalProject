@@ -1,6 +1,7 @@
 package com.lec.spring.domain;
 
 import jakarta.persistence.*;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -19,14 +20,19 @@ public class Calendar {
 
     @ManyToOne
     @JoinColumn(name = "userId")
-    private User user;              // 유저와의 관계
+    private User user;
 
     @Column(nullable = false)
-    private String title;           // 일정 제목
+    private String title;
 
     @Column
-    private String description;     // 일정 내용
+    private String description;
 
     @Column(nullable = false)
-    private LocalDate date;         // 일정 날짜
+    @JsonFormat(pattern = "yyyy-MM-dd")
+    private LocalDate startDate;
+
+    @Column
+    @JsonFormat(pattern = "yyyy-MM-dd")
+    private LocalDate endDate;
 }
