@@ -85,7 +85,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
 **1. 일정을 새롭게 추가 할 수 있습니다.** <br/>
-**2. 추가된 일정을 다시 할 수 있습니다.**
+**2. 추가된 일정을 수정 할 수 있습니다.**
 </div>
 <br/>
 
