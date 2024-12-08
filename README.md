@@ -63,7 +63,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 
 ### 4. 일정 관리 페이지
 <div>
-    "C:\Users\user\Pictures\Screenshots\스크린샷 2024-12-09 054259.png"
+![스크린샷 2024-12-09 054259](https://github.com/user-attachments/assets/2e82af1d-8531-4d79-b69c-bfca0a2dfaee)
 </div>
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
@@ -73,6 +73,9 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
     <img src="https://github.com/user-attachments/assets/cd3d0a29-14be-4cf7-bce8-30f1b7a3d804" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
     <img src="https://github.com/user-attachments/assets/23e0b0be-b67c-4e4f-9131-c5d68327b7d9" alt="메인 페이지 2" style="display:inline-block; width:48%;">
 </div>
+
+**일정을 새롭게 추가 할 수 있습니다.**
+**추가된 일정을 다시 할 수 있습니다.**
 
 ### 5. 마이 페이지 및 수정 페이지
 <div>
