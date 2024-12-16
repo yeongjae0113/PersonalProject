@@ -35,7 +35,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 ## 🙋‍♂️ 주요 기능
 | 🙋‍♂️ 기능 설명 |
 |--------------|
-| - 💾 **부서별 유저 리스트 필터 구현** <br> - 🌐 **유저 CRUD 구현** <br> - 📊 **채팅방 CRUD 구현** <br> - 🎨 **일정 CRUD 구현** <br> - 🚀 **WebSocket과 STOMP 프로토콜을 활용한 실시간 채팅 구현** <br> - 🧪 **FullCalendar 라이브러리를 활용한 달력 구현** <br> - 🪪 **로그인한 유저 각자의 일정 관리 페이지에 접근 가능** <br> -> 렌더링 된 일정을 클릭하면 "일정 수정" Modal 창 <br> -> 빈 셀을 클릭하면 "일정 추가" Modal 창|
+| - 💾 **부서별 유저 리스트 필터 구현** <br> - 🌐 **유저 CRUD 구현** <br>- 🛡️ **User 권한에 따른 사용자 분류** <br> - 📊 **채팅방 CRUD 구현** <br> - 🎨 **일정 CRUD 구현** <br> - 🗃️ **부서 CRUD 구현** <br> - 🚀 **WebSocket과 STOMP 프로토콜을 활용한 실시간 채팅 구현** <br> - 🧪 **FullCalendar 라이브러리를 활용한 달력 구현** <br> - 🪪 **로그인한 유저 각자의 일정 관리 페이지에 접근 가능** <br> -> 렌더링 된 일정을 클릭하면 "일정 수정" Modal 창 <br> -> 빈 셀을 클릭하면 "일정 추가" Modal 창|
 
 
 
@@ -49,15 +49,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 </div>
 <br/>
 
-### 2. 회원가입 페이지
-![스크린샷 2024-12-09 071227](https://github.com/user-attachments/assets/966e0f6e-b26d-4da2-80d2-5ac718e945a5)
-<div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
-    
-> **사내 메신저를 이용하기 전 개인정보를 기입하여 회원가입하는 페이지입니다.** 
-</div>
-<br/>
-
-### 3. 메인 페이지
+### 2. 메인 페이지
 <div>
     <img src="https://github.com/user-attachments/assets/3db2ffa0-e9e3-418f-8ff8-2108ee824c42" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
     <img src="https://github.com/user-attachments/assets/215fc579-b938-4bc5-8b27-06e9ca7b3874" alt="메인 페이지 2" style="display:inline-block; width:48%;">
@@ -66,12 +58,13 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
 > **1. 부서 필터를 클릭하여 부서별 사원 리스트를 볼 수 있습니다.** <br/>
-> **2. 자신이 참여하고 있는 채팅방 목록을 볼 수 있습니다.** 
+> **2. 자신이 참여하고 있는 채팅방 목록을 볼 수 있습니다.** <br/>
+> **3. 사원 목록을 더블 클릭하여 가입된 사원의 정보를 볼 수 있습니다.**
 
 </div>
 <br/>
 
-### 4. 일정 관리 페이지
+### 3. 일정 관리 페이지
 ![스크린샷 2024-12-09 054259](https://github.com/user-attachments/assets/2e82af1d-8531-4d79-b69c-bfca0a2dfaee)
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
@@ -90,7 +83,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 </div>
 <br/>
 
-### 5. 마이 페이지 및 수정 페이지
+### 4. 마이 페이지 및 수정 페이지
 <div>
     <img src="https://github.com/user-attachments/assets/71f97435-cb2f-462d-89b1-20245bfe2673" alt="마이 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
     <img src="https://github.com/user-attachments/assets/46df8caf-9e88-45b1-82f8-8d1a78272e55" alt="마이 페이지 2" style="display:inline-block; width:48%;">
