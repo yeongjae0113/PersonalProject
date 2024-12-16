@@ -10,7 +10,8 @@
 ## 🚀 프로젝트 소개
 Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원들이 실시간으로 소통할 수 있는 플랫폼입니다. <br/>
 이 서비스는 사용자 친화적인 인터페이스를 제공하며, 로그인 및 회원가입 기능을 통해 안전하게 접근할 수 있습니다. <br/>
-부서별 필터링 기능을 통해 필요한 정보를 쉽게 찾을 수 있으며, 개인 및 그룹 채팅 기능을 통해 효율적인 커뮤니케이션을 지원합니다.
+일정 관리 기능을 통해 사용자는 개인 일정을 쉽게 관리 할 수 있으며, 캘린더를 통해 중요한 일정과 회의를 시각적으로 확인 할 수 있습니다. <br/>
+또한, 부서별 필터링 기능을 통해 필요한 정보를 쉽게 찾을 수 있으며, 개인 및 그룹 채팅 기능을 통해 효율적인 커뮤니케이션을 지원합니다. <br/>
 
 ## 🛠️ 기술 스택
 
@@ -31,56 +32,71 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge) 
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=fff&style=for-the-badge)
 
+## 🙋‍♂️ 주요 기능
+| 🙋‍♂️ 기능 설명 |
+|--------------|
+| - 💾 **부서별 유저 리스트 필터 구현** <br> - 🌐 **유저 CRUD 구현** <br> - 📊 **채팅방 CRUD 구현** <br> - 🎨 **일정 CRUD 구현** <br> - 🚀 **WebSocket과 STOMP 프로토콜을 활용한 실시간 채팅 구현** <br> - 🧪 **FullCalendar 라이브러리를 활용한 달력 구현** <br> - 🪪 **로그인한 유저 각자의 일정 관리 페이지에 접근 가능** <br> -> 렌더링 된 일정을 클릭하면 "일정 수정" Modal 창 <br> -> 빈 셀을 클릭하면 "일정 추가" Modal 창|
+
+
+
 ## 📺 페이지 구성
 
 ### 1. 로그인 페이지
-![로그인 페이지](https://github.com/user-attachments/assets/9f14e5b2-f37e-4379-a1dc-fc1939ddecae)  
+![스크린샷 2024-12-09 071227](https://github.com/user-attachments/assets/ebc05125-9020-4a76-b63e-5db4b9933cde)
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-**사내 메신저 서비스를 이용하기 위해 로그인하는 페이지입니다.** 
+> **사내 메신저 서비스를 이용하기 위해 로그인하는 페이지입니다.** 
 </div>
 <br/>
 
 ### 2. 회원가입 페이지
-![회원가입 페이지](https://github.com/user-attachments/assets/f77db02a-5441-4d96-823e-f38ec4478985)  
+![스크린샷 2024-12-09 071227](https://github.com/user-attachments/assets/966e0f6e-b26d-4da2-80d2-5ac718e945a5)
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-**사내 메신저를 이용하기 전 개인정보를 기입하여 회원가입하는 페이지입니다.** 
+> **사내 메신저를 이용하기 전 개인정보를 기입하여 회원가입하는 페이지입니다.** 
 </div>
 <br/>
 
 ### 3. 메인 페이지
 <div>
-    <img src="https://github.com/user-attachments/assets/1e7775a7-735f-48e5-9b2f-205c0c5fb6dc" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
-    <img src="https://github.com/user-attachments/assets/08664e19-a574-40e7-b743-3b172bb04eff" alt="메인 페이지 2" style="display:inline-block; width:48%;">
+    <img src="https://github.com/user-attachments/assets/3db2ffa0-e9e3-418f-8ff8-2108ee824c42" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
+    <img src="https://github.com/user-attachments/assets/215fc579-b938-4bc5-8b27-06e9ca7b3874" alt="메인 페이지 2" style="display:inline-block; width:48%;">
 </div>
+
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-**1. 부서 필터를 클릭하여 부서별 사원 리스트를 볼 수 있습니다.** <br/>
-**2. 자신이 참여하고 있는 채팅방 목록을 볼 수 있습니다.** 
+> **1. 부서 필터를 클릭하여 부서별 사원 리스트를 볼 수 있습니다.** <br/>
+> **2. 자신이 참여하고 있는 채팅방 목록을 볼 수 있습니다.** 
+
 </div>
 <br/>
 
 ### 4. 일정 관리 페이지
-<div>
-    "C:\Users\user\Pictures\Screenshots\스크린샷 2024-12-09 054259.png"
-</div>
+![스크린샷 2024-12-09 054259](https://github.com/user-attachments/assets/2e82af1d-8531-4d79-b69c-bfca0a2dfaee)
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-**로그인 한 유저의 일정 관리를 할 수 있는 페이지입니다.** 
-
+> **로그인 한 유저의 일정 관리를 할 수 있는 페이지입니다.** 
 <div>
-    <img src="https://github.com/user-attachments/assets/cd3d0a29-14be-4cf7-bce8-30f1b7a3d804" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
-    <img src="https://github.com/user-attachments/assets/23e0b0be-b67c-4e4f-9131-c5d68327b7d9" alt="메인 페이지 2" style="display:inline-block; width:48%;">
+    <img src="https://github.com/user-attachments/assets/23e0b0be-b67c-4e4f-9131-c5d68327b7d9" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
+    <img src="https://github.com/user-attachments/assets/b8f62db3-dd5c-4ac8-b8be-a798a99d9b79" alt="메인 페이지 2" style="display:inline-block; width:48%;">
+
 </div>
+<br/>
+
+<div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
+    
+> **1. 일정을 새롭게 추가 할 수 있습니다.** <br/>
+> **2. 추가된 일정을 수정 할 수 있습니다.**
+</div>
+<br/>
 
 ### 5. 마이 페이지 및 수정 페이지
 <div>
-    <img src="https://github.com/user-attachments/assets/9b82664b-b451-4a27-a631-72ea4c6dc5b8" alt="마이 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
-    <img src="https://github.com/user-attachments/assets/9f3e92ce-542c-4515-b010-db9e7f5e01d2" alt="마이 페이지 2" style="display:inline-block; width:48%;">
+    <img src="https://github.com/user-attachments/assets/71f97435-cb2f-462d-89b1-20245bfe2673" alt="마이 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
+    <img src="https://github.com/user-attachments/assets/46df8caf-9e88-45b1-82f8-8d1a78272e55" alt="마이 페이지 2" style="display:inline-block; width:48%;">
 </div>
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-**1. 자신의 회원 정보를 볼 수 있습니다.**  <br/>
-**2. 성별, 나이, 부서, 직급을 제외한 사용자 이름, 비밀번호, 휴대전화번호를 수정할 수 있습니다.** 
+> **1. 자신의 회원 정보를 볼 수 있습니다.**  <br/>
+> **2. 성별, 나이, 부서, 직급을 제외한 사용자 이름, 비밀번호, 휴대전화번호를 수정할 수 있습니다.** 
 </div>
