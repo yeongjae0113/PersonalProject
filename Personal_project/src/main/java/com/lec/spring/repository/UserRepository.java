@@ -1,5 +1,6 @@
 package com.lec.spring.repository;
 
+import com.lec.spring.domain.Department;
 import com.lec.spring.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
@@ -12,5 +13,8 @@ public interface UserRepository extends JpaRepository<User, Long> {
     Optional<User> findByUserId(String userId);
 
     // 부서에 맞는 유저목록 가져오기
-    List<User> findByDepartment(String department);
+    List<User> findByDepartment(Department department);
+
+    // 특정 부서에 속한 유저 수 계산 (headCount)
+    Long countByDepartment(Department department);
 }

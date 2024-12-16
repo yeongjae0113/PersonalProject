@@ -1,6 +1,9 @@
 package com.lec.spring.service;
 
+import com.lec.spring.domain.Department;
+import com.lec.spring.domain.Role;
 import com.lec.spring.domain.User;
+import com.lec.spring.repository.DepartmentRepository;
 import com.lec.spring.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -12,9 +15,34 @@ public class UserService {
 
     @Autowired
     public UserRepository userRepository;
+    @Autowired
+    public DepartmentRepository departmentRepository;
 
     // 회원가입
     public User save(User user) {
+        user.setRole(Role.ROLE_USER);   // 기본적으로 ROLE_USER 권한
+
+        // 필수 필드인 userId, password, username 체크
+        if (user.getUserId() == null || user.getPassword() == null || user.getUsername() == null) {
+            throw new IllegalArgumentException("아이디, 비밀번호, 이름은 필수 항목입니다.");
+        }
+
+        // 유저가 속한 부서가 null 인지 확인
+        if (user.getDepartment() != null) {
+            // 유저가 속한 부서 가져오기
+            Department department = departmentRepository.findByDepartment(user.getDepartment().getDepartment())
+                    .orElse(null);
+
+            user.setDepartment(department);  // department 를 직접 설정
+
+            if (department != null) {
+                user.setDepartment(department);
+                // headcount 업데이트
+                long userCount = userRepository.countByDepartment(department);
+                department.setHeadcount(userCount + 1);
+                departmentRepository.save(department);
+            }
+        }
         return userRepository.save(user);
     }
 
@@ -33,7 +61,7 @@ public class UserService {
     }
 
     // 부서에 맞는 유저 반환
-    public List<User> departmentList(String department) {
+    public List<User> departmentList(Department department) {
         return userRepository.findByDepartment(department);
     }
 
@@ -47,6 +75,7 @@ public class UserService {
         return "false";
     }
 
+    // 유저 수정
     public User updateUser(Long id, User updatedUser) {
         User users = userRepository.findById(id).orElse(null);
         if (users != null) {

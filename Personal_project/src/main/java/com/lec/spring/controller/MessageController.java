@@ -1,4 +1,4 @@
-package com.lec.spring.Controller;
+package com.lec.spring.controller;
 
 import com.lec.spring.domain.ChatRoom;
 import com.lec.spring.domain.Message;

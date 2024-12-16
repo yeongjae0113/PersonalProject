@@ -41,9 +41,5 @@ public class ChatRoomService {
     public List<ChatRoom> getChatRooms(Long userId) {
         return chatRoomRepository.findByUsers_Id(userId);
     }
-//    public List<ChatRoom> getChatRooms(Long userId)  {
-//        User user = userRepository.findById(userId)
-//                .orElseThrow(() -> new RuntimeException("유저를 찾을 수 없음"));
-//        return user.getChatRooms();
-//    }
+
 }

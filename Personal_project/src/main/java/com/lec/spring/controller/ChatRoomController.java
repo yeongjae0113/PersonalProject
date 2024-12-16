@@ -1,4 +1,4 @@
-package com.lec.spring.Controller;
+package com.lec.spring.controller;
 
 import com.lec.spring.domain.ChatRoom;
 import com.lec.spring.repository.ChatRoomRepository;
@@ -20,8 +20,8 @@ public class ChatRoomController {
 
 
     @PostMapping("/create")
-    public ChatRoom create(@RequestBody List<Long> userIds) {
-        return chatRoomService.create(userIds);
+    public ChatRoom create(@RequestBody List<Long> userId) {
+        return chatRoomService.create(userId);
     }
 
     @GetMapping("/chatRoom")

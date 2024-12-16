@@ -1,7 +1,8 @@
-package com.lec.spring.Controller;
+package com.lec.spring.controller;
 
 import com.lec.spring.domain.Calendar;
 import com.lec.spring.domain.User;
+import com.lec.spring.repository.CalendarRepository;
 import com.lec.spring.service.CalendarService;
 import com.lec.spring.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,14 +17,16 @@ import java.util.List;
 public class CalendarController {
 
     @Autowired
+    private CalendarRepository calendarRepository;
+    @Autowired
     private CalendarService calendarService;
     @Autowired
     private UserService userService;
 
     // 모든 일정 가져오기
     @GetMapping
-    public ResponseEntity<List<Calendar>> getAllCalendar() {
-        List<Calendar> calendar = calendarService.findAll();
+    public ResponseEntity<List<Calendar>> getAllCalendar(@RequestParam Long userId) {
+        List<Calendar> calendar = calendarRepository.findByUserId(userId);
         return ResponseEntity.ok(calendar);
     }
 
