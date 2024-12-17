@@ -43,27 +43,17 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 
 | 로그인 페이지 |
 | :-------------------------------------------: |
-| <img width"100%" alt="메인" src="https://github.com/user-attachments/assets/ca674009-9060-4315-861b-e806eaa82006" |
-| <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;"> |
+| <img width"100%" alt="메인" src="https://github.com/user-attachments/assets/ca674009-9060-4315-861b-e806eaa82006" /> |
 | **사내 메신저 서비스를 이용하기 위해 로그인하는 페이지입니다.** |
 
-### 2. 메인 페이지
-
-![스크린샷 2024-12-18 011113](https://github.com/user-attachments/assets/e60e88e8-815d-4e68-8e3e-568daaee4735)
-<div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
-
-> **1. 부서를 클릭하면 해당 부서에 소속된 사원 목록을 볼 수 있습니다.** <br/>
-> **2. 자신이 참여하고 있는 채팅방 목록을 볼 수 있습니다.**
-
-<div>
-    <img src="https://github.com/user-attachments/assets/4477d54f-e9a5-43f2-a7f9-a64ccc2a77ad" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
-    <img src="https://github.com/user-attachments/assets/3db2ffa0-e9e3-418f-8ff8-2108ee824c42" alt="메인 페이지 2" style="display:inline-block; width:48%;">
-</div>
-
-<div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
-    
-> **1. 사원 목록을 한 번 클릭하여 채팅을 이용 할 수 있습니다.** <br/>
-> **2. 사원을 더블 클릭하여 가입된 사원의 정보를 볼 수 있습니다.** <br/>
+| 메인 페이지 |
+| :-------------------------------------------: |
+| <img width="100%" alt="메인" src="https://github.com/user-attachments/assets/e60e88e8-815d-4e68-8e3e-568daaee4735" /> |
+| **부서를 클릭하면 해당 부서에 소속된 사원 목록을 볼 수 있습니다.** |
+| **자신이 참여하고 있는 채팅방 목록을 볼 수 있습니다.** |
+| <img width="49%" src="https://github.com/user-attachments/assets/4477d54f-e9a5-43f2-a7f9-a64ccc2a77ad" alt="메인 페이지 1" /> <img width="49%" src="https://github.com/user-attachments/assets/3db2ffa0-e9e3-418f-8ff8-2108ee824c42" alt="메인 페이지 2" /> |
+| **1. 사원 목록을 한 번 클릭하여 채팅을 이용 할 수 있습니다.** |
+| **2. 사원을 더블 클릭하여 가입된 사원의 정보를 볼 수 있습니다.** |
 
 </div>
 <br/>
