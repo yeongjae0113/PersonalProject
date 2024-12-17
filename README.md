@@ -38,21 +38,9 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 | - 💾 **부서별 유저 리스트 필터 구현** <br>- 🌐 **유저 CRUD 구현** <br>- 🛡️ **User 권한에 따른 사용자 분류** <br>- 🪪 **관리자 페이지 구현** <br>- 📊 **채팅방 CRUD 구현** <br>- 🎨 **일정 CRUD 구현** <br>- 🗃️ **부서 CRUD 구현** <br>- 🚀 **WebSocket과 STOMP 프로토콜을 활용한 실시간 채팅 구현** <br>- 🧪 **FullCalendar 라이브러리를 활용한 달력 구현** <br>- 🪪 **로그인한 유저 각자의 일정 관리 페이지에 접근 가능** |
 
 
-
-<style>
-.table-title {
-    background-color: #f0f2f5;
-    color: #333;
-    font-weight: bold;
-    text-align: left;
-    padding: 8px 12px;
-    border-radius: 4px;
-}
-</style>
-
 ## 📺 페이지 구성
 
-| <div class="table-title">3. 로그인 페이지</div> |
+| <div align="left" style="background-color:#f2f2f2; padding:8px; border-radius:5px;"> <h3 style="margin:0;">1. 로그인 페이지</h3> </div> |
 | :-------------------------------------------: |
 | <img width"100%" alt="로그인" src="https://github.com/user-attachments/assets/13ea7935-d9f5-4578-b009-37e33caa9d11" /> |
 | **사내 메신저 서비스를 이용하기 위해 로그인하는 페이지입니다.** |
