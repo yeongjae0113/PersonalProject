@@ -1,0 +1,23 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.schedule {
+  color: white;
+  padding: 2px 15px;
+}
+
+.schedule {
+  margin-bottom: 5px;
+}
+
+.titleClass {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.descriptionClass {
+  color: black;
+  font-style: italic;
+}

@@ -18,7 +18,7 @@ public class UserDTO {
     private Department department;  // 부서 이름만 반환
     private String role;
 
-    // User 엔티티를 DTO로 변환하는 생성자
+    // User 엔티티를 DTO 로 변환하는 생성자
     public UserDTO(User user) {
         this.id = user.getId();
         this.userId = user.getUserId();

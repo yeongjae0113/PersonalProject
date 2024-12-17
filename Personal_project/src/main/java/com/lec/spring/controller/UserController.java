@@ -101,11 +101,25 @@ public class UserController {
         return ResponseEntity.ok(result);
     }
 
+    // 유저가 수정
     @PostMapping("/update/{id}")
     public ResponseEntity<User> updateUser(@PathVariable Long id, @RequestBody User user) {
         User updateUser = userService.updateUser(id, user);
         if (updateUser != null) {
             return ResponseEntity.ok(updateUser);
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
+        }
+    }
+
+    // 관리자가 수정
+    @PutMapping("/updateMaster/{id}")
+    public ResponseEntity<User> updateMaster(@PathVariable Long id, @RequestBody User user) {
+        System.out.println("수정하려는 유저 ID: " + id);
+        System.out.println("전달된 유저 정보: " + user);
+        User updateMaster = userService.updateMaster(id, user);
+        if (updateMaster != null) {
+            return ResponseEntity.ok(updateMaster);
         } else {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
         }

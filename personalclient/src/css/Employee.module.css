@@ -1,0 +1,109 @@
+.chatDiv {
+    width: 25%;
+}
+
+.chatList {
+    width: 100%;
+    align-items: center;
+}
+
+.profileDiv {
+    display: flex;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 5px 0;
+    border-radius: 8px;
+}
+.profile {
+    width: 20%;
+    margin-left: 6px;
+}
+.profileName {
+    width: 80%;
+    margin-left: 8%;
+    align-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.department {
+    width: 100%;
+    background-color: white;
+}
+.department1 {
+    width: 32.9%;
+    background-color: #91b0d9;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin: 0 0.5px;
+}
+
+
+.chatListName, .chatName {
+    text-align: center;
+}
+.chatList ul {
+    list-style-type: none; /* 불릿 제거 */
+    padding: 0;
+    width: 100%; /* 부모의 너비에 맞추기 */
+    text-align: center;
+}
+.chatRoomItem {
+    width: 100%;
+}
+.userItem button, .chatRoomItem button {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+}
+
+.list {
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+.usernames {
+    width: 75%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden; /* 넘치는 부분 숨김 */
+    text-overflow: ellipsis; /* 넘치는 부분에 ... 표시 */
+    margin-bottom: 5px; /* 이름과 유저 수 간의 간격 */
+}
+.userCount {
+    width: 25%;
+}
+.list {
+    width: 100%;
+    background-color: #f5f5f5;
+    /* border: 1px solid black; */
+    border: none;
+    /* border-bottom: 1px solid black; */
+    margin: 0.5px 0;
+}
+.userButtonContainer {
+    display: flex;
+    height: 52px;
+}
+
+.abc {
+    justify-content: center;
+    border: none;
+    margin-bottom: 1px;
+    padding: 3px;
+}
+.chatButton {
+    flex: 0 0 25%;
+    justify-content: center;
+    font-size: 13px;
+    align-items: center;
+    font-weight: bold;
+    background-color: #91b0d9;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}

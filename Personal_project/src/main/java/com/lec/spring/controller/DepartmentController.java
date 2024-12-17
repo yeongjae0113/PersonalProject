@@ -19,6 +19,11 @@ public class DepartmentController {
         return departmentService.create(department);
     }
 
+    @DeleteMapping("/delete/{department}")
+    public void delete(@PathVariable String department) {
+        departmentService.delete(department);
+    }
+
     @GetMapping("/list")
     public List<Department> list() {
         return departmentService.list();

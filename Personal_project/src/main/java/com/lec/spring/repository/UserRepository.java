@@ -1,6 +1,7 @@
 package com.lec.spring.repository;
 
 import com.lec.spring.domain.Department;
+import com.lec.spring.domain.Role;
 import com.lec.spring.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
@@ -17,4 +18,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
     // 특정 부서에 속한 유저 수 계산 (headCount)
     Long countByDepartment(Department department);
+
+    // 권한 변경
+//    Enum<Role> change(Role role);
 }

@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    justify-content: center;  /* 좌우 중앙 정렬 */
+    width: 70%;
+    height: 790px;
+    margin: 0 auto;
+    flex: 1;
+    background-color: white;
+    padding: 10px 30px;
+}
+
+.departmentDiv {
+    width: 100%;
+    align-items: center;
+}
+
+.display {
+    display: flex;
+    justify-content: center;  /* 좌우 중앙 정렬 */
+}
+
+.departmentList {
+    width: 80%;
+}
+
+.departmentDiv ul {
+    list-style-type: none;
+    padding: 0;
+    width: 79.2%;
+    text-align: center;
+}
+
+.button1 {
+    height: 30px;
+    margin-top: 0.1%;
+    padding: 5px;
+    border: none;
+    background-color: #00AAFF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.button2 {
+    height: 30px;
+    margin: 1.4% 0 19% 0.8%;
+    padding: 5px;
+    border: none;
+    background-color: #00AAFF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+
+}
