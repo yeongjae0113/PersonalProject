@@ -1,4 +1,4 @@
-![스크린샷 2024-12-18 010628](https://github.com/user-attachments/assets/fc7cfe13-a398-477b-9950-a27276ebb385)# 🏬 Personal Project - 사내 메신저 서비스
+# 🏬 Personal Project - 사내 메신저 서비스
 > **개발 기간 : 2024.11 ~ 진행중**
 
 <div align="center">
@@ -48,7 +48,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 - 🪪 **로그인한 유저 각자의 일정 관리 페이지에 접근 가능** <br>
 -> 렌더링 된 일정을 클릭하면 "일정 수정" Modal 창 <br>
 -> 빈 셀을 클릭하면 "일정 추가" Modal 창| <br>
--> 관리자 권한을 가진 유저는 모든 유저가 볼 수 있는 공지사항 추가 가능
+-> 관리자 권한을 가진 유저는 모든 유저가 볼 수 있는 공지사항 추가 가능 |
 
 
 
@@ -71,13 +71,13 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 > **2. 자신이 참여하고 있는 채팅방 목록을 볼 수 있습니다.**
 
 <div>
-    <img src="!https://github.com/user-attachments/assets/4477d54f-e9a5-43f2-a7f9-a64ccc2a77ad" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
+    <img src="https://github.com/user-attachments/assets/4477d54f-e9a5-43f2-a7f9-a64ccc2a77ad" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
     <img src="https://github.com/user-attachments/assets/3db2ffa0-e9e3-418f-8ff8-2108ee824c42" alt="메인 페이지 2" style="display:inline-block; width:48%;">
 </div>
 
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-> **1. 사원 목록을 한 번 클릭하여 채팅을 이용 할 수 있습니다.**
+> **1. 사원 목록을 한 번 클릭하여 채팅을 이용 할 수 있습니다.** <br/>
 > **2. 사원을 더블 클릭하여 가입된 사원의 정보를 볼 수 있습니다.** <br/>
 
 </div>
@@ -100,7 +100,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
     
 > **1. 일정을 새롭게 추가 할 수 있습니다.** <br/>
 > **2. 추가된 일정을 수정 할 수 있습니다.** <br/>
->  -> 권한에 따라 "master" 권한을 가진 유저는 공지 버튼이 있으며 모든 유저가 볼 수 있는 공지사항을 쓸 수 있습니다.
+>  권한에 따라 "master" 권한을 가진 유저는 공지 버튼이 있으며 모든 유저가 볼 수 있는 공지사항을 쓸 수 있습니다.
 
 </div>
 <br/>
@@ -115,6 +115,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 > **1. 자신의 회원 정보를 볼 수 있습니다.**  <br/>
 > **2. 성별, 나이, 부서, 직급을 제외한 사용자 이름, 비밀번호, 휴대전화번호를 수정할 수 있습니다.** 
 </div>
+<br/>
 
 ### 5. 관리자 페이지
 <div>
