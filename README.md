@@ -39,11 +39,22 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 
 
 
+<style>
+.table-title {
+    background-color: #f0f2f5;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+</style>
+
 ## 📺 페이지 구성
 
-| 로그인 페이지 |
+| <div class="table-title">3. 로그인 페이지</div> |
 | :-------------------------------------------: |
-| <img width"100%" alt="로그인" src="https://github.com/user-attachments/assets/5071fbb0-73d9-425d-b132-1b76751e4ca0" /> |
+| <img width"100%" alt="로그인" src="https://github.com/user-attachments/assets/13ea7935-d9f5-4578-b009-37e33caa9d11" /> |
 | **사내 메신저 서비스를 이용하기 위해 로그인하는 페이지입니다.** |
 
 <br />
