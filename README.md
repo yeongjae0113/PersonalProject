@@ -35,7 +35,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 ## 🙋‍♂️ 주요 기능
 | 🙋‍♂️ 기능 설명 |
 |--------------|
-| - 💾 **부서별 유저 리스트 필터 구현** <br>- 🌐 **유저 CRUD 구현** <br>- 🛡️ **User 권한에 따른 사용자 분류** <br>- 🪪 **관리자 페이지 구현** <br> -- -> 관리자 권한을 가진 유저만 사원 회원가입 및 수정, 부서 생성 가능 <br> -- 📊 **채팅방 CRUD 구현** <br>- 🎨 **일정 CRUD 구현** <br>- 🗃️ **부서 CRUD 구현** <br>- 🚀 **WebSocket과 STOMP 프로토콜을 활용한 실시간 채팅 구현** <br>- 🧪 **FullCalendar 라이브러리를 활용한 달력 구현** <br>- 🪪 **로그인한 유저 각자의 일정 관리 페이지에 접근 가능** <br>-> 렌더링 된 일정을 클릭하면 "일정 수정" Modal 창 <br>-> 빈 셀을 클릭하면 "일정 추가" Modal 창| <br>-> 관리자 권한을 가진 유저는 모든 유저가 볼 수 있는 공지사항 추가 가능 |
+| - 💾 **부서별 유저 리스트 필터 구현** <br>- 🌐 **유저 CRUD 구현** <br>- 🛡️ **User 권한에 따른 사용자 분류** <br>- 🪪 **관리자 페이지 구현** <br>- 📊 **채팅방 CRUD 구현** <br>- 🎨 **일정 CRUD 구현** <br>- 🗃️ **부서 CRUD 구현** <br>- 🚀 **WebSocket과 STOMP 프로토콜을 활용한 실시간 채팅 구현** <br>- 🧪 **FullCalendar 라이브러리를 활용한 달력 구현** <br>- 🪪 **로그인한 유저 각자의 일정 관리 페이지에 접근 가능** |
 
 
 
@@ -108,15 +108,6 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 <div>
     <img src="https://github.com/user-attachments/assets/dc4c18ec-a887-4132-98bd-4b458181d03e" alt="부서 생성 모달" style="display:inline-block; width:48%; margin-right: 2%;">
     <img src="https://github.com/user-attachments/assets/6097f6d2-58c5-42c0-9a1b-934ddc17b0a6" alt="사원 생성 모달" style="display:inline-block; width:48%;">
-
-</div>
-<br/>
-<div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
-    
-> **1. master 권한을 가진 회원이 접근 할 수 있는 관리자 페이지입니다.** <br />
-> **2. 권한을 포함한 사원 정보를 수정 할 수 있습니다.**
-</div>
-<div>
     <img src="https://github.com/user-attachments/assets/1b241a77-31a5-47db-8cba-bf8186c16e1f" alt="부서 생성 모달" style="display:inline-block; width:48%; margin-right: 2%;">
     <img src="https://github.com/user-attachments/assets/ecce5edf-7551-4366-bae0-14bd1f338b83" alt="사원 생성 모달" style="display:inline-block; width:48%;">
 
@@ -124,8 +115,10 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 <br/>
 
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
-    
-> **1. 부서를 추가 할 수 있습니다.** <br/>
-> **2. 사원을 추가 할 수 있습니다.**
+
+> **1. master 권한을 가진 회원이 접근 할 수 있는 관리자 페이지입니다.** <br />
+> **2. 권한을 포함한 사원 정보를 수정 할 수 있습니다.**
+> **3. 부서를 추가 할 수 있습니다.** <br/>
+> **4. 사원을 추가 할 수 있습니다.**
 </div>
 <br/>
