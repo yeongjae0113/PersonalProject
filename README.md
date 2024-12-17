@@ -40,7 +40,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 
 ## 📺 페이지 구성
 
-| <div style="background-color:#f5f5f5; border-radius:5px;"> <h4>로그인 페이지</h4> </div> |
+| <h4 style="background-color: #f5f5f5; font-size: 15px;">로그인 페이지</h4> |
 | :-------------------------------------------: |
 | <img width="100%" alt="로그인" src="https://github.com/user-attachments/assets/13ea7935-d9f5-4578-b009-37e33caa9d11" /> |
 | <div align="left"> **사내 메신저 서비스를 이용하기 위해 로그인하는 페이지입니다.** </div> |
