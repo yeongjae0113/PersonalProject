@@ -1,4 +1,4 @@
-# 🏬 Personal Project - 사내 메신저 서비스
+![스크린샷 2024-12-18 010628](https://github.com/user-attachments/assets/fc7cfe13-a398-477b-9950-a27276ebb385)# 🏬 Personal Project - 사내 메신저 서비스
 > **개발 기간 : 2024.11 ~ 진행중**
 
 <div align="center">
@@ -35,14 +35,27 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 ## 🙋‍♂️ 주요 기능
 | 🙋‍♂️ 기능 설명 |
 |--------------|
-| - 💾 **부서별 유저 리스트 필터 구현** <br> - 🌐 **유저 CRUD 구현** <br>- 🛡️ **User 권한에 따른 사용자 분류** <br> - 🪪 **관리자 페이지 구현** <br> - -> 관리자 권한을 가진 유저만 사원 회원가입 및 부서 생성 가능 <br> - 📊 **채팅방 CRUD 구현** <br> - 🎨 **일정 CRUD 구현** <br> - 🗃️ **부서 CRUD 구현** <br> - 🚀 **WebSocket과 STOMP 프로토콜을 활용한 실시간 채팅 구현** <br> - 🧪 **FullCalendar 라이브러리를 활용한 달력 구현** <br> - 🪪 **로그인한 유저 각자의 일정 관리 페이지에 접근 가능** <br> -> 렌더링 된 일정을 클릭하면 "일정 수정" Modal 창 <br> -> 빈 셀을 클릭하면 "일정 추가" Modal 창|
+| - 💾 **부서별 유저 리스트 필터 구현** <br>
+- 🌐 **유저 CRUD 구현** <br>
+- 🛡️ **User 권한에 따른 사용자 분류** <br>
+- 🪪 **관리자 페이지 구현** <br> -
+- -> 관리자 권한을 가진 유저만 사원 회원가입 및 수정, 부서 생성 가능 <br> -
+- 📊 **채팅방 CRUD 구현** <br>
+- 🎨 **일정 CRUD 구현** <br>
+- 🗃️ **부서 CRUD 구현** <br>
+- 🚀 **WebSocket과 STOMP 프로토콜을 활용한 실시간 채팅 구현** <br>
+- 🧪 **FullCalendar 라이브러리를 활용한 달력 구현** <br>
+- 🪪 **로그인한 유저 각자의 일정 관리 페이지에 접근 가능** <br>
+-> 렌더링 된 일정을 클릭하면 "일정 수정" Modal 창 <br>
+-> 빈 셀을 클릭하면 "일정 추가" Modal 창| <br>
+-> 관리자 권한을 가진 유저는 모든 유저가 볼 수 있는 공지사항 추가 가능
 
 
 
 ## 📺 페이지 구성
 
 ### 1. 로그인 페이지
-![스크린샷 2024-12-09 071227](https://github.com/user-attachments/assets/ebc05125-9020-4a76-b63e-5db4b9933cde)
+![스크린샷 2024-12-18 010628](https://github.com/user-attachments/assets/ca674009-9060-4315-861b-e806eaa82006)
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
 > **사내 메신저 서비스를 이용하기 위해 로그인하는 페이지입니다.** 
@@ -51,33 +64,34 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 
 ### 2. 메인 페이지
 
-!스크린샷
+![스크린샷 2024-12-18 011113](https://github.com/user-attachments/assets/e60e88e8-815d-4e68-8e3e-568daaee4735)
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
 
-> **1. 자신이 참여하고 있는 채팅방 목록을 볼 수 있습니다.** <br/>
+> **1. 부서를 클릭하면 해당 부서에 소속된 사원 목록을 볼 수 있습니다.** <br/>
 > **2. 자신이 참여하고 있는 채팅방 목록을 볼 수 있습니다.**
 
 <div>
-    <img src="https://github.com/user-attachments/assets/3db2ffa0-e9e3-418f-8ff8-2108ee824c42" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
-    <img src="https://github.com/user-attachments/assets/215fc579-b938-4bc5-8b27-06e9ca7b3874" alt="메인 페이지 2" style="display:inline-block; width:48%;">
+    <img src="!https://github.com/user-attachments/assets/4477d54f-e9a5-43f2-a7f9-a64ccc2a77ad" alt="메인 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
+    <img src="https://github.com/user-attachments/assets/3db2ffa0-e9e3-418f-8ff8-2108ee824c42" alt="메인 페이지 2" style="display:inline-block; width:48%;">
 </div>
 
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-> **1. 사원 목록을 더블 클릭하여 가입된 사원의 정보를 볼 수 있습니다.** <br/>
-> **2. 사원 목록을 한 번 클릭하여 채팅을 이용해 할 수 있습니다.**
+> **1. 사원 목록을 한 번 클릭하여 채팅을 이용 할 수 있습니다.**
+> **2. 사원을 더블 클릭하여 가입된 사원의 정보를 볼 수 있습니다.** <br/>
 
 </div>
 <br/>
 
 ### 3. 일정 관리 페이지
-![스크린샷 2024-12-09 054259](https://github.com/user-attachments/assets/2e82af1d-8531-4d79-b69c-bfca0a2dfaee)
+![스크린샷 2024-12-18 012205](https://github.com/user-attachments/assets/b6ed08f5-8a85-471e-9305-1c3a2f548f55)
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-> **로그인 한 유저의 일정 관리를 할 수 있는 페이지입니다.** 
+> **로그인 한 유저의 일정 관리를 할 수 있습니다.**
+> 
 <div>
-    <img src="https://github.com/user-attachments/assets/23e0b0be-b67c-4e4f-9131-c5d68327b7d9" alt="일정 추가 모달" style="display:inline-block; width:48%; margin-right: 2%;">
-    <img src="https://github.com/user-attachments/assets/b8f62db3-dd5c-4ac8-b8be-a798a99d9b79" alt="일정 수정 모달" style="display:inline-block; width:48%;">
+    <img src="https://github.com/user-attachments/assets/1b7634d0-623e-472a-bca6-a62694b50102" alt="일정 추가 모달" style="display:inline-block; width:48%; margin-right: 2%;">
+    <img src="https://github.com/user-attachments/assets/a0692f50-6789-4a13-880d-d556b344bad1" alt="일정 수정 모달" style="display:inline-block; width:48%;">
 
 </div>
 <br/>
@@ -85,14 +99,16 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
 > **1. 일정을 새롭게 추가 할 수 있습니다.** <br/>
-> **2. 추가된 일정을 수정 할 수 있습니다.**
+> **2. 추가된 일정을 수정 할 수 있습니다.** <br/>
+>  -> 권한에 따라 "master" 권한을 가진 유저는 공지 버튼이 있으며 모든 유저가 볼 수 있는 공지사항을 쓸 수 있습니다.
+
 </div>
 <br/>
 
 ### 4. 마이 페이지 및 수정 페이지
 <div>
-    <img src="https://github.com/user-attachments/assets/71f97435-cb2f-462d-89b1-20245bfe2673" alt="마이 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
-    <img src="https://github.com/user-attachments/assets/46df8caf-9e88-45b1-82f8-8d1a78272e55" alt="마이 페이지 2" style="display:inline-block; width:48%;">
+    <img src="https://github.com/user-attachments/assets/10ad9cce-c311-41fd-980c-1f3c14f8aa5b" alt="마이 페이지 1" style="display:inline-block; width:48%; margin-right: 2%;">
+    <img src="https://github.com/user-attachments/assets/5560776a-1534-4ff7-b6e5-1ee3b541bf86" alt="마이 페이지 2" style="display:inline-block; width:48%;">
 </div>
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
@@ -101,14 +117,20 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 </div>
 
 ### 5. 관리자 페이지
-<img src="" alt"관리자 페이지">
+<div>
+    <img src="https://github.com/user-attachments/assets/dc4c18ec-a887-4132-98bd-4b458181d03e" alt="부서 생성 모달" style="display:inline-block; width:48%; margin-right: 2%;">
+    <img src="https://github.com/user-attachments/assets/6097f6d2-58c5-42c0-9a1b-934ddc17b0a6" alt="사원 생성 모달" style="display:inline-block; width:48%;">
+
+</div>
+<br/>
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
     
-> **master 권한을 가진 회원이 접근 할 수 있는 페이지입니다.**
+> **1. master 권한을 가진 회원이 접근 할 수 있는 관리자 페이지입니다.** <br />
+> **2. 권한을 포함한 사원 정보를 수정 할 수 있습니다.**
 </div>
 <div>
-    <img src="" alt="부서 생성 모달" style="display:inline-block; width:48%; margin-right: 2%;">
-    <img src="" alt="사원 생성 모달" style="display:inline-block; width:48%;">
+    <img src="https://github.com/user-attachments/assets/1b241a77-31a5-47db-8cba-bf8186c16e1f" alt="부서 생성 모달" style="display:inline-block; width:48%; margin-right: 2%;">
+    <img src="https://github.com/user-attachments/assets/ecce5edf-7551-4366-bae0-14bd1f338b83" alt="사원 생성 모달" style="display:inline-block; width:48%;">
 
 </div>
 <br/>
