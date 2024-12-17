@@ -42,12 +42,10 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 ## 📺 페이지 구성
 
 ### 1. 로그인 페이지
-![스크린샷 2024-12-18 010628](https://github.com/user-attachments/assets/ca674009-9060-4315-861b-e806eaa82006)
-<div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
-    
-> **사내 메신저 서비스를 이용하기 위해 로그인하는 페이지입니다.** 
-</div>
-<br/>
+| :-------------------------------------------: |
+| <img width"100%" alt="메인" src="https://github.com/user-attachments/assets/ca674009-9060-4315-861b-e806eaa82006" |
+| <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;"> |
+| **사내 메신저 서비스를 이용하기 위해 로그인하는 페이지입니다.** |
 
 ### 2. 메인 페이지
 
@@ -117,7 +115,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 <div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
 
 > **1. master 권한을 가진 회원이 접근 할 수 있는 관리자 페이지입니다.** <br />
-> **2. 권한을 포함한 사원 정보를 수정 할 수 있습니다.**
+> **2. 권한을 포함한 사원 정보를 수정 할 수 있습니다.** <br />
 > **3. 부서를 추가 할 수 있습니다.** <br/>
 > **4. 사원을 추가 할 수 있습니다.**
 </div>
