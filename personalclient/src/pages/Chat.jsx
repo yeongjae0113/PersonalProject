@@ -10,7 +10,6 @@ const Chat = ({ chatRoomId, messageInput, setMessageInput, sendMessages }) => {
     const [isConnected, setIsConnected] = useState(false);
     const [id, setUserId] = useState(null);
     const stompClient = useRef(null);
-    const [users, setUsers] = useState([]);
 
     useEffect(() => {
         const userInfo = JSON.parse(localStorage.getItem('userInfo'));
@@ -59,7 +58,6 @@ const Chat = ({ chatRoomId, messageInput, setMessageInput, sendMessages }) => {
                     console.error('메시지 가져오기 오류: ', error);
                 }
             };
-
             fetchMessages();
         }
     }, [chatRoomId, id]);
@@ -86,7 +84,7 @@ const Chat = ({ chatRoomId, messageInput, setMessageInput, sendMessages }) => {
 
     return (
         <>
-            <div className={styles.chatRoomId}>채팅방 ID: {chatRoomId}</div>
+            <div className={styles.chatRoomId}>채팅</div>
             <div className={styles.messageList}>
                 {messages.map((msg, index) => (
                     <div 

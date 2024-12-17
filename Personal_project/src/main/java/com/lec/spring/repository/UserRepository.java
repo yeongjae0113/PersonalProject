@@ -19,6 +19,4 @@ public interface UserRepository extends JpaRepository<User, Long> {
     // 특정 부서에 속한 유저 수 계산 (headCount)
     Long countByDepartment(Department department);
 
-    // 권한 변경
-//    Enum<Role> change(Role role);
 }

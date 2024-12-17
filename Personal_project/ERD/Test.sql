@@ -5,6 +5,7 @@ SELECT * FROM chat_room;
 SELECT * FROM chat_room_users;
 SELECT * FROM message;
 SELECT * FROM calendar;
+SELECT * FROM user_calendar;
 SELECT * FROM department;
 SHOW TABLES;
 
@@ -15,6 +16,7 @@ DROP TABLE chat_room;
 DROP TABLE chat_room_users;
 DROP TABLE message;
 DROP TABLE calendar;
+DROP TABLE user_calendar;
 DROP TABLE department;
 
 DROP TABLE IF EXISTS user;

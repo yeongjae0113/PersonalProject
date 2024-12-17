@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from '../css/Login.module.css';
 import axios from 'axios';
-import Header from './Header';
 import Footer from './Footer';
+import Header from './Header';
+import Logo from '../img/logo.png';
 
 const Login = () => {
     const navigate = useNavigate();
@@ -46,10 +47,13 @@ const Login = () => {
 
     return (
         <>
-            <Header />  
+        <Header />
             <div className={styles.container}>
                 <form className={styles['login-container']} onSubmit={handleLogin}>
-                    <h2 className={styles.login}>Login</h2>
+                    <div>
+                        {/* <div className={styles.logoDiv}><img className={styles.logo} src={Logo} alt='로고 오류류'></img></div> */}
+                    </div>
+                    <h1 className={styles.login}>Login</h1>
                     <div>
                         <label className={styles.label}>아이디</label>
                         <input className={styles.input}

@@ -147,8 +147,4 @@ public class UserService {
         return userRepository.findById(id).orElse(null);
     }
 
-    // 권한 수정
-//    public User changeRole(Long userId, Role newRole) {
-////        User user = userRepository.
-//    }
 }

@@ -23,29 +23,25 @@ public class CalendarController {
     @Autowired
     private UserService userService;
 
-    // 모든 일정 가져오기
-    @GetMapping
-    public ResponseEntity<List<Calendar>> getAllCalendar(@RequestParam Long userId) {
-        List<Calendar> calendar = calendarRepository.findByUserId(userId);
-        return ResponseEntity.ok(calendar);
+    // 모든 일정 (master 가 공지한 일정)
+    @PostMapping("/add")
+    public ResponseEntity<Calendar> addCalendar(@RequestBody Calendar calendar,
+                                                @RequestParam Long id) {
+        Calendar savedCalendar = calendarService.addCalendar(calendar, id);
+        return ResponseEntity.ok(savedCalendar);
     }
 
-    // 일정 추가
-    @PostMapping("/save")
-    public ResponseEntity<Calendar> create(@RequestBody Calendar calendar) {
-        User user = userService.findById(calendar.getUser().getId());
-        if (user == null) {
-            return ResponseEntity.badRequest().build();
-        }
-        calendar.setUser(user);
-        Calendar save = calendarService.save(calendar);
-        return ResponseEntity.ok(save);
+    // 각 유저의 일정 가져오기
+    @GetMapping
+    public ResponseEntity<List<Calendar>> getAllCalendar(@RequestParam Long userId) {
+        List<Calendar> calendars = calendarService.getAllCalendar(userId);
+        return ResponseEntity.ok(calendars);
     }
 
     // 일정 수정
-    @PostMapping("/update/{id}")
-    public ResponseEntity<Calendar> update(@PathVariable Long id, @RequestBody Calendar calendar) {
-        Calendar update = calendarService.update(id, calendar);
+    @PostMapping("/update/{calendarId}")
+    public ResponseEntity<Calendar> update(@PathVariable Long calendarId, @RequestBody Calendar calendar) {
+        Calendar update = calendarService.update(calendarId, calendar);
         if (update != null) {
             return ResponseEntity.ok(update);
         } else {

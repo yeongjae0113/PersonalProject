@@ -6,6 +6,8 @@ import Header from './Header';
 import styles from '../css/Calendar.module.css';
 import axios from 'axios';
 import CalendarModal from './modal/CalendarModal';
+import Blue from '../img/00AAFF.png';
+import Green from '../img/3cb371.png';
 
 const Calendar = () => {
   const [events, setEvents] = useState([]);
@@ -17,16 +19,16 @@ const Calendar = () => {
   const [startDate, setStartDate] = useState('');
   const [endDate, setEndDate] = useState('');
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isNotice, setIsNotice] = useState(false);
   const [isEventModalOpen, setIsEventModalOpen] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
 
   const userInfo = JSON.parse(localStorage.getItem('userInfo'));
-
   const fetchEvent = async () => {
     try {
       const response = await axios.get(`http://localhost:8088/calendar?userId=${userInfo.id}`);
       const formattedEvents = response.data.map(event => ({
-        id: event.id,
+        id: event.calendarId,
         title: event.title,
         start: event.startDate,
         end: event.endDate 
@@ -34,8 +36,10 @@ const Calendar = () => {
           : null,
         extendedProps: {
           description: event.description
-        }
+        },
+        isNotice: event.isNotice
       }));
+      console.log('123123213: ', formattedEvents)
       setEvents(formattedEvents);
       setFilteredEvents(formattedEvents);
     } catch (error) {
@@ -69,14 +73,18 @@ const Calendar = () => {
       ? new Date(new Date(event.end).setDate(new Date(event.end).getDate()))
           .toISOString()
           .split('T')[0]
-      : null;
-    setSelectedEvent({
+    : null;
+    const selectedEventDetails = {
       id: event.id,
       title: event.title,
       description: event.extendedProps.description,
       start: event.startStr,
       end: correctedEndDate,
-    });
+      isNotice: event.extendedProps.isNotice,
+    };
+    console.log("일정 정보: ", selectedEventDetails)
+
+    setSelectedEvent(selectedEventDetails)
     setIsEventModalOpen(true);
     setIsModalOpen(false);
   };
@@ -88,15 +96,20 @@ const Calendar = () => {
         description,
         startDate,
         endDate: endDate || null,
+        isNotice,
         user: { id: userInfo.id },
       };
 
-      const response = await axios.post('http://localhost:8088/calendar/save', newEvent);
+      console.log("일정 추가 전송 데이터: ", newEvent);
+
+      const response = await axios.post(`http://localhost:8088/calendar/add?id=${userInfo.id}`, newEvent);
       
       const updatedEvents =  [...events, {
+        id: response.data.calendarId,
         title: response.data.title,
         start: response.data.start,
         end: response.data.end,
+        isNotice: response.data.isNotice,
         extendedProps: {
           description: response.data.description
         }
@@ -118,8 +131,10 @@ const Calendar = () => {
         description: selectedEvent.description,
         startDate: selectedEvent.start,
         endDate: selectedEvent.end || null,
+        isNotice,
         user: { id: userInfo.id },
       };
+      console.log('일정 수정 데이터: ', updatedEvent)
 
       const response = await axios.post(`http://localhost:8088/calendar/update/${selectedEvent.id}`, updatedEvent);
 
@@ -141,6 +156,7 @@ const Calendar = () => {
     setDescription('');
     setStartDate('');
     setEndDate('');
+    setIsNotice(false);
     setSelectedEvent(null);
   };
 
@@ -148,6 +164,8 @@ const Calendar = () => {
     <>
       <Header />
       <div className={styles.container}>
+        <div className={styles.colorDivs}>공지사항<img className={styles.colorDiv} src={Green} alt='파란색 오류'></img></div>
+        <div className={styles.colorDivs}>개인 일정<img className={styles.colorDiv} src={Blue} alt='초록색 오류'></img></div>
         <FullCalendar
           plugins={[dayGridPlugin, interactionPlugin]}
           initialView="dayGridMonth"
@@ -160,13 +178,30 @@ const Calendar = () => {
             setCurrentMonth(month);
             filterEventsByMonth(month);
           }}
-          eventContent={(eventInfo) => (
-            <div>
-              <div style={{fontSize: "16px", fontWeight: "bold", padding: "1px 0"}}>
-                {eventInfo.event.title}
+          eventContent={(eventInfo) => {
+            const event = eventInfo.event;
+            const eventStyle = event.extendedProps.isNotice
+              ? {
+                  backgroundColor: '#3cb371',
+                  color: 'white',
+                  fontSize: '16px',
+                  fontWeight: 'bold',
+                  padding: '1px 0',
+                }
+              : {
+                  backgroundColor: '#00AAFF',
+                  color: 'white',
+                  fontSize: '16px',
+                  fontWeight: 'bold',
+                  padding: '1px 0',
+                };
+        
+            return (
+              <div style={eventStyle}>
+                {event.title}
               </div>
-            </div>
-          )}
+            );
+          }}
         />
         <CalendarModal
           isOpen={isModalOpen}
@@ -176,13 +211,16 @@ const Calendar = () => {
           description={description}
           startDate={startDate}
           endDate={endDate}
+          isNotice={isNotice}
           selectedEvent={selectedEvent}
           setTitle={setTitle}
           setDescription={setDescription}
           setStartDate={setStartDate}
           setEndDate={setEndDate}
+          setIsNotice={setIsNotice}
           handleSave={handleSave}
           handleUpdate={handleUpdate}
+          userInfo={userInfo}
         />
         <CalendarModal
           isOpen={isEventModalOpen}
@@ -192,13 +230,16 @@ const Calendar = () => {
           description={description}
           startDate={startDate}
           endDate={endDate}
+          isNotice={isNotice}
           selectedEvent={selectedEvent}
           setTitle={setTitle}
           setDescription={setDescription}
           setStartDate={setStartDate}
           setEndDate={setEndDate}
+          setIsNotice={setIsNotice}
           handleSave={handleSave}
           handleUpdate={handleUpdate}
+          userInfo={userInfo}
         />
       </div>
     </>

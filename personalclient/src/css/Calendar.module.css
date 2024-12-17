@@ -21,3 +21,21 @@
   color: black;
   font-style: italic;
 }
+.colorDivs {
+  display: flex;
+  align-items: center; 
+  justify-content: flex-start; 
+  font-size: 16px; 
+  font-weight: 600; 
+  color: #333; 
+  width: 100%; 
+}
+.colorDivs img {
+  object-fit: contain;
+}
+.colorDiv {
+  width: 35px;
+  height: 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
