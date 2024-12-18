@@ -35,7 +35,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 ## 🙋‍♂️ 주요 기능
 | 🙋‍♂️ 기능 설명 |
 |--------------|
-| - 💾 **부서별 유저 리스트 필터 구현** <br>- 🌐 **유저 CRUD 구현** <br>- 🛡️ **User 권한에 따른 사용자 분류** <br>- 🪪 **관리자 페이지 구현** <br>- 📊 **채팅방 CRUD 구현** <br>- 🎨 **일정 CRUD 구현** <br>- 🗃️ **부서 CRUD 구현** <br>- 🚀 **WebSocket과 STOMP 프로토콜을 활용한 실시간 채팅 구현** <br>- 🧪 **FullCalendar 라이브러리를 활용한 달력 구현** <br>- 🪪 **로그인한 유저 각자의 일정 관리 페이지에 접근 가능** |
+| - 💾 **부서별 유저 리스트 필터 구현** <br>- 🌐 **유저 CRUD 구현** <br>- 🛡️ **User 권한에 따른 사용자 분류** <br>- 🪪 **관리자 페이지 구현** <br>- 📊 **채팅방 CRUD 구현** <br>- 🎨 **일정 CRUD 구현** <br>- 🗃️ **부서 CRUD 구현** <br>- 🚀 **WebSocket과 STOMP 프로토콜을 활용한 실시간 채팅 구현** <br>- 🧪 **FullCalendar 라이브러리를 활용한 달력 구현** <br>- 🪪 **로그인한 유저 각자의 일정 관리 페이지에 접근 가능** <br>- 📀 **ERD 설계** |
 
 ## 📊 ERD (Entity-Relationship Diagram)
 <img width="100%" alt="ERD" src="https://github.com/user-attachments/assets/6269ab9b-2e43-49e3-8ab5-2511543e4b73"/>
