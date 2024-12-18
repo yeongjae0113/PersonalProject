@@ -37,6 +37,17 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 |--------------|
 | - 💾 **부서별 유저 리스트 필터 구현** <br>- 🌐 **유저 CRUD 구현** <br>- 🛡️ **User 권한에 따른 사용자 분류** <br>- 🪪 **관리자 페이지 구현** <br>- 📊 **채팅방 CRUD 구현** <br>- 🎨 **일정 CRUD 구현** <br>- 🗃️ **부서 CRUD 구현** <br>- 🚀 **WebSocket과 STOMP 프로토콜을 활용한 실시간 채팅 구현** <br>- 🧪 **FullCalendar 라이브러리를 활용한 달력 구현** <br>- 🪪 **로그인한 유저 각자의 일정 관리 페이지에 접근 가능** |
 
+## 📊 ERD (Entity-Relationship Diagram)
+<img width="100%" alt="ERD" src="https://github.com/user-attachments/assets/6269ab9b-2e43-49e3-8ab5-2511543e4b73"/>
+프로젝트의 데이터베이스는 위와 같은 ERD를 기반으로 설계되었습니다. 
+
+- `user` 테이블 : 사용자 정보를 저장하는 테이블입니다.
+- `department` 테이블 : 부서를 저장하는 테이블입니다.
+- `calendar` 테이블 : 개인일정 및 공지사항을 저장하는 테이블입니다.
+- `user_calendar` 테이블 : 일정을 확인할 수 있는 유저를 저장하는 테이블입니다.
+- `chatRoom` 테이블 : 채팅방을 저장하는 테이블입니다.
+- `chatRoom_users` 테이블 : 채팅방에 참여한 사용자를 저장하는 테이블입니다.
+- `message` 테이블 : 이용자들 간 채팅 내역을 저장하는 테이블입니다.
 
 ## 📺 페이지 구성
 
