@@ -39,7 +39,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 
 ## 📊 ERD (Entity-Relationship Diagram)
 <img width="100%" alt="ERD" src="https://github.com/user-attachments/assets/6269ab9b-2e43-49e3-8ab5-2511543e4b73"/>
-<h4> 프로젝트의 데이터베이스는 위와 같은 ERD를 기반으로 설계되었습니다. </h4>
+프로젝트의 데이터베이스는 위와 같은 ERD를 기반으로 설계되었습니다.
 <br />
 - `user` 테이블 : 사용자 정보를 저장하는 테이블입니다.
 - `department` 테이블 : 부서를 저장하는 테이블입니다.
@@ -79,11 +79,11 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 | <img width="49%" src="https://github.com/user-attachments/assets/10ad9cce-c311-41fd-980c-1f3c14f8aa5b" alt="마이 페이지 1"> <img width="49%" src="https://github.com/user-attachments/assets/5560776a-1534-4ff7-b6e5-1ee3b541bf86" alt="마이 페이지 2" /> |
 | <div align="left"> **1. 자신의 회원 정보를 볼 수 있습니다.** <br/> **2. 성별, 나이, 부서, 직급, 권한을 제외한 사용자 이름, 비밀번호, 휴대전화번호를 수정할 수 있습니다.** </div> |
 
-<br/>
+<br />
 
 | <h4> 관리자 페이지 </h4> |
 | :-------------------------------------------: |
 | <img width="49%" src="https://github.com/user-attachments/assets/dc4c18ec-a887-4132-98bd-4b458181d03e" alt="부서 생성 모달" /> <img width="49%" src="https://github.com/user-attachments/assets/6097f6d2-58c5-42c0-9a1b-934ddc17b0a6" alt="사원 생성 모달" /> <img width="49%" src="https://github.com/user-attachments/assets/1b241a77-31a5-47db-8cba-bf8186c16e1f" alt="부서 생성 모달" /> <img width="49%" src="https://github.com/user-attachments/assets/ecce5edf-7551-4366-bae0-14bd1f338b83" alt="사원 생성 모달" /> |
 | <div align="left"> **1. master 권한을 가진 회원이 접근 할 수 있는 관리자 페이지입니다.** <br /> **2. 권한을 포함한 모든 사원의 정보를 수정 할 수 있습니다.** <br /> **3. 부서를 추가 할 수 있습니다.** <br/> **4. 사원을 추가 할 수 있습니다.** </div> |
 
-<br/>
+<br />
