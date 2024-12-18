@@ -39,7 +39,7 @@ Personal Project는 사내 메신저로 회사의 각 부서에 소속된 직원
 
 ## 📊 ERD (Entity-Relationship Diagram)
 <img width="100%" alt="ERD" src="https://github.com/user-attachments/assets/6269ab9b-2e43-49e3-8ab5-2511543e4b73"/>
-**프로젝트의 데이터베이스는 위와 같은 ERD를 기반으로 설계되었습니다.**
+<h4> 프로젝트의 데이터베이스는 위와 같은 ERD를 기반으로 설계되었습니다. </h4>
 <br />
 - `user` 테이블 : 사용자 정보를 저장하는 테이블입니다.
 - `department` 테이블 : 부서를 저장하는 테이블입니다.
