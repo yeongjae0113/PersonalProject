@@ -41,7 +41,6 @@ public class User {
 
     @ManyToOne
     @JoinColumn(name = "department")
-//    @JsonIgnore
     private Department department;  // 부서
 
     @Enumerated(EnumType.STRING)
